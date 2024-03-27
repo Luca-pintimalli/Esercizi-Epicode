@@ -1,85 +1,121 @@
-body{
+body {
+    margin: 0;
+}
+
+/*---------------------header-------------*/
+
+#contenuto-iniziale {
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
-main{
+
+/*testo sotto la prima immagine*/
+#asimply {
+    font-weight: bold;
+}
+
+/*-----main-------*/
+main {
     width: 50%;
     margin: 0 auto;
     text-align: start;
 }
 
-#contenuto-iniziale{
-    margin: 0;
-    padding: 0;
-}
-/*testo sotto la prima immagine*/
-#asimply{
-    font-weight: bold;
+/*----------titolo+p+img----------*/
+
+#titolo-pagina{
+    margin-bottom: 2em;
 }
 
-#testo-iniziale{
+h1 {
+    font-size: 3vw;
+    text-align: center;
+}
+
+#testo-iniziale {
     border-top: 1px solid rgb(255, 230, 0);
     background-color: rgb(255 255 198);
     padding: 1vw;
 }
 
-h1{
-    font-size: 5vw;
-}
-
-#cont{
-        width: 50%;
-        margin: 0 auto;
-        overflow: hidden;
-        text-align:start;
-}
-
-
-
 /*immagine*/
-#focaccia{
-    float: left;
-    clear: both;
+#focaccia {
+    border-radius: 5%;
+    
 }
 
-figcaption{
+figure{
+    margin-left: 0;
+}
+
+figcaption {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: darkgray;
     margin-top: 1em;
     text-align: center;
+}
 
+/*------link-----*/
+
+#link {
+    border-left: 1px rgb(255, 230, 0) solid;
+    margin-left: 1px;
+}
+
+#featured{
+    margin: 1em;
+    margin-bottom: 0;
+    color: red;
 }
 
 #fresh{
-    margin-top:0;
-}
-
-#featrured{
-    margin-bottom: 0;
-}
-
-
-#link{
-    border-left: 1px  rgb(255, 230, 0) solid;
+    margin-left: 1em;
+    color:cadetblue
 
 }
 
+#fresh:hover{
+    color: blueviolet;
+}
 
-
-/*paragrafo testo iniziale*/
-#primo{
-    float: none;
-
+#fresh:visited{
+    color: black;
 }
 
 
+/*---ingredienti---*/
+.titolo-secondario{
+    border-bottom: 1px solid dodgerblue;
+    margin-top: 3em;
+}
 
+#cont {
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: start;
+}
 
-.ingredienti{
+.ingredienti {
     font-weight: bold;
 }
-h2{
-    margin-bottom: 1px solid black
-    ;
 
+.lista{
+    padding: 5px;
+
+}
+
+/*---footer----*/
+#simply-recipes{
+    color:cadetblue;
+
+}
+#simply-recipes:hover{
+    color: blueviolet;
+}
+
+#simply-recipes:visited{
+    color: black;
 }
