@@ -1,104 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ricetta Focaccia</title>
     <meta name="Description" content="Ricetta di una focaccia con cipolle caramellate e brie">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
 
 </head>
+
 <body>
+
+    <!--logo sito + presentazione pagina-->
     <header>
-        <div id="contenuto-iniziale"> 
+        <div id="contenuto-iniziale">
             <img src="assets/logo.png" alt="logo-sito">
             <p id="testo-iniziale">Part of <span id="asimply">A SIMPLY FABULOUS THANKSGIVING</span></p>
         </div>
-
-        <div id="Titolo-pagina">
-            <h1>Focaccia with Caramelized Onions, Cranberries, and Brie</h1>
-        </div>
-   
-    
-        <article>
-
-            <!--primo paragrafo+immagine-->
-            <div id="cont">
-                <p id="primo">Wow your taste buds with this festive focaccia appetizer topped with sweet caramelized onions, tart cranberries, and creamy brie. It will become your new favorite holiday started!</p>
-                <figure>
-                    <img src="assets/focaccia.png" alt="immagine focaccia" id="focaccia">
-                    <figcaption>Image: Sally Vegas</figcaption>
-                </figure>
-            </div>
     </header>
 
+
     <main>
-            <!--Link-->
-            <div id="link">
-                <p id="featured">FEATURED IN:</p>
-                <a id="fresh" href="#" target="_blank">Fresh Cranverry Recipes That Go Beyond Sauce</a>
-            </div>
-        </article>
+
+        <!--Titolo+p+img-->
+        <div id="titolo-pagina">
+            <h1>Focaccia with Caramelized Onions, Cranberries, and Brie</h1>
+            <p id="primo">Wow your taste buds with this festive focaccia appetizer topped with sweet caramelized onions,
+                tart cranberries, and creamy brie. It will become your new favorite holiday started!</p>
+            <figure>
+                <img src="assets/focaccia.png" alt="immagine focaccia" id="focaccia">
+                <figcaption>Image: Sally Vegas</figcaption>
+            </figure>
+
+        </div>
+
+
+        <!--Link-->
+        <div id="link">
+            <p id="featured">FEATURED IN:</p>
+            <a id="fresh" href="#" target="_blank">Fresh Cranverry Recipes That Go Beyond Sauce</a>
+        </div>
+
 
         <!--ingredienti-->
         <article>
             <!--ingredienti focaccia-->
-            <div>
+            <div class="titolo-secondario">
                 <h2>Ingredient</h2>
+            </div>    
                 <p class="ingredienti">For the focaccia:</p>
                 <ul>
-                    <li>4 cups (500g) all-purpose</li>
-                    <li>11/2 teaspoons instant yeast</li>
-                    <li>11/2teaspoons salt</li>
-                    <li>13/4 cups (350g) lukewarm water</li>
-                    <li>1/4 cup extra virgin olive oil, plus more for the plan</li>
+                    <li class="lista">4 cups (500g) all-purpose</li>
+                    <li class="lista" >11/2 teaspoons instant yeast</li>
+                    <li class="lista">11/2teaspoons salt</li>
+                    <li class="lista">13/4 cups (350g) lukewarm water</li>
+                    <li class="lista">1/4 cup extra virgin olive oil, plus more for the plan</li>
                 </ul>
-            </div>
+        </article>
+        
+        
+        <!--ingredienti per il topping-->
+        <article>
 
-            <!--ingredienti per il topping-->
             <div>
-                <h2>Ingredient</h2>
                 <p class="ingredienti">For the topping</p>
                 <ul>
-                    <li>3 medium yellow onions,thinly sliced</li>
-                    <li>1 tablespoon balsamic vinegar</li>
-                    <li> 1-2 tablespoons olive oil , for brushing on top</li>
-                    <li>10 ounces brie, cut into cubes(scrape rind off with a paring knife if desidered, though it's not necessary)</li>
-                    <li>11/2 cups fresh or frozen cranberries</li>
+                    <li class="lista">3 medium yellow onions,thinly sliced</li>
+                    <li class="lista">1 tablespoon balsamic vinegar</li>
+                    <li class="lista"> 1-2 tablespoons olive oil , for brushing on top</li>
+                    <li class="lista">10 ounces brie, cut into cubes(scrape rind off with a paring knife if desidered, though it's not
+                        necessary)</li>
+                    <li class="lista">11/2 cups fresh or frozen cranberries</li>
                 </ul>
             </div>
 
         </article>
 
         <!--Preparazione-->
-        <article>
-            <div>
+        <section>
+            <div class="titolo-secondario">
                 <h2>Method</h2>
             </div>
             <div>
                 <ol>
-                    <li><h4>Make the focaccia dough</h4>
-                        <p>in a medium-sized mixing bowl,or in a stand mixer with a paddle attachment,mix toghether all the dough ingredients until the flour is fully absorbed. You don't need to actually knead the dough, though I sometimes knead it a few times in the bowl when mixing by hand to incorporate the last of the flour...</p>
+                    <li>
+                        <h4>Make the focaccia dough</h4>
+                        <p>in a medium-sized mixing bowl,or in a stand mixer with a paddle attachment,mix toghether all
+                            the dough ingredients until the flour is fully absorbed. You don't need to actually knead
+                            the dough, though I sometimes knead it a few times in the bowl when mixing by hand to
+                            incorporate the last of the flour...</p>
 
                     </li>
                 </ol>
-                <p>Read more on <a href="#" target="_blank">Simply recipes</a></p>
 
             </div>
-           
-        </article>
-            
-       
 
+        </section>
 
-
-
-
-
-
+        <!--inizio footer-->
+        <footer>
+            <p>Read more on <a id="simply-recipes" href="#" target="_blank">Simply recipes</a></p>
+        </footer>
 
     </main>
-    
+
 </body>
+
 </html>
+
+
+
+
+
+
