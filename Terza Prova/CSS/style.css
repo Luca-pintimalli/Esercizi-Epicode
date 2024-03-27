@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+}
+main{
+    width: 50%;
+    margin: 0 auto;
+    text-align: start;
+}
+
+#contenuto-iniziale{
+    margin: 0;
+    padding: 0;
+}
+/*testo sotto la prima immagine*/
+#asimply{
+    font-weight: bold;
+}
+
+#testo-iniziale{
+    border-top: 1px solid rgb(255, 230, 0);
+    background-color: rgb(255 255 198);
+    padding: 1vw;
+}
+
+h1{
+    font-size: 5vw;
+}
+
+#cont{
+        width: 50%;
+        margin: 0 auto;
+        overflow: hidden;
+        text-align:start;
+}
+
+
+
+/*immagine*/
+#focaccia{
+    float: left;
+    clear: both;
+}
+
+figcaption{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: darkgray;
+    margin-top: 1em;
+    text-align: center;
+
+}
+
+#fresh{
+    margin-top:0;
+}
+
+#featrured{
+    margin-bottom: 0;
+}
+
+
+#link{
+    border-left: 1px  rgb(255, 230, 0) solid;
+
+}
+
+
+
+/*paragrafo testo iniziale*/
+#primo{
+    float: none;
+
+}
+
+
+
+
+.ingredienti{
+    font-weight: bold;
+}
+h2{
+    margin-bottom: 1px solid black
+    ;
+
+}
