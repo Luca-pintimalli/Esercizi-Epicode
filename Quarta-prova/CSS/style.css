@@ -1,0 +1,58 @@
+/*-------immagine di sfondo---------*/
+body{
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+/*-------quadrato iniziale----*/
+#prima-parte{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1 px solid black;
+    background-color:rgb(74, 74, 237);
+}
+
+
+
+#logo{
+    margin-left: 25%;
+    margin-top:25%;
+    width: 100px;
+}
+ 
+
+#testo{
+    text-align: center;
+    margin-top: 1em;
+    color: white;
+}
+
+
+#lista{
+    text-align: center;
+    margin-top: 2em;
+}
+
+
+main{
+    width: 400px;
+    
+
+}
+
+h1{
+    font-size: 3em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+#autore{
+    text-align: left;
+}
+
+
+
+
+    
