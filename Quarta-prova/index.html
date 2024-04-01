@@ -1,203 +1,219 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta name="description" content="BLOG-EPICODE">
+    <title>Blog-Epicode</title>
+    <meta name="description" content="Blog-Epicode">
     <link rel="stylesheet" href="CSS/font-awesome.css">
     <link rel="stylesheet" href="CSS/reset.css">
-    <link rel="stylesheet" href="CSS/style.css">
-
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!--primo quadrato pagigna-->
-    <div id="prima-parte">
-        <img id="logo" src="img/logo.svg" alt="logo.epicode">
-        <div id="secondaparte">
-            <header>
+    <!--Logo Epicode+menu nav-->
+    <header>
+        <div id="conteiner-logo">
+
+
+
+            <div>
+                <img src="img/logo.svg" alt="Logo Epicode" id="logo">
                 <p id="testo">EPICODE-IL BLOG DEI DEVELOPERS</p>
-            </header>
+            </div>
+
 
             <nav>
-                <ul id="lista">
-                    <li>
-                        <a href="#">Contatti</a>
+                <ul>
+                    <li class="lista">
+                        <a class="lista-iniziale" href="#">Contatti</a>
                     </li>
-                    <li>
-                        <a href="#">Articoli</a>
+                    <li class="lista">
+                        <a class="lista-iniziale" href="#">Articoli</a>
                     </li>
-                    <li>
-                        <a href="#">Lavora con noi</a>
+                    <li class="lista">
+                        <a class="lista-iniziale" href="#">Lavora con noi</a>
                     </li>
                 </ul>
             </nav>
 
         </div>
-    </div>
 
+    </header>
 
-
-<!---inizio contenuto principale-->
     <main>
-        <article>
-            <!--titolo-->
-            <div>
-                <h1>Come creare un template per i post</h1>
-                <p id="autore">di Mario Rossi- pubblicato il 25-10-2020</p>
 
-            </div>
+        <div id="contenitore-principale">
 
-            <br>
+            <article>
+                <!--titolo-->
+                <div>
 
-            <div>
-                <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da
-                    applicare a tutte le pagine</p>
+                    <h1 id="titolo">Come creare un template per i post</h1>
+                    <p id="autore"> <ion-icon name="create-outline"></ion-icon> di Mario Rossi- <ion-icon name="calendar-outline"></ion-icon> pubblicato il 25-10-2020</p>
 
-                    <br>
+                </div>
+            </article>
 
-                <p>Le varie aree saranno quindi suddivise in:</p>
+            <article>
+                <div class="content">
+                    <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando <span>le parti
+                            comuni </span>da applicare a tutte le pagine</p>
 
-                <br>
-                
-                <ul>
-                    <li>
-                        Contenuti di intestazione del tag <code> header</code>
-                    </li>
-                    <li>
-                        Contenuti centrali variabili del tag <code>main</code> (corpo principale)
-                    </li>
-                    <li>
-                        Contenuti di fine pagina comuni, da inserire nel tag <code>footer</code>
-                    </li>
-                </ul>
-            </div>
+                    <p>Le varie aree saranno quindi suddivise in:</p>
 
-        </article>
+                    <ul id="second-list">
+                        <li class="lista2">
+                            Contenuti di intestazione del tag <code> &lt;header&gt;</code>
+                        </li>
+                        <li class="lista2">
+                            Contenuti centrali variabili del tag <code>&lt;main&gt;</code> (corpo principale)
+                        </li>
+                        <li class="lista2">
+                            Contenuti di fine pagina comuni, da inserire nel tag <code>&lt;footer&gt;</code>
+                        </li>
+                    </ul>
 
-        <article>
-            <div>
-                <p>Formattazione del codice
-                    Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i
-                    CSS. Perciò i passi saranno:</p>
-                <ol>
-                    <li>
-                        Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato
-                    </li>
-                    <li>
-                        Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso
-                    </li>
-                    <li>
-                        Applicare gli stili CSS
-                    </li>
-                </ol>
-            </div>
+                </div>
 
+                <div class="content">
+                    <p>Formattazione del codice
+                        Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <span> selezionare
+                        con i CSS.</span> Perciò i passi saranno:</p>
+                    <ol id="three-list">
+                        <li class="lista3">
+                            Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato
+                        </li>
+                        <li class="lista3">
+                            Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso
+                        </li>
+                        <li class="lista3">
+                            Applicare gli stili CSS
+                        </li>
+                    </ol>
+
+                </div>
 
 
-        </article>
-
-        <!--inizio tabella-->
-        <article>
-            <div>
-                <table>
-                    <caption>Diffusione dei CSS</caption>
-                    <tr>
-                        <td>Anno</td>
-                        <td>%di utilizzo</td>
-                        <td>Supporto browsers</td>
-                    </tr>
-                    <tr>
-                        <td>2000</td>
-                        <td>20%</td>
-                        <td>17%</td>
-                    </tr>
-                    <tr>
-                        <td>2002</td>
-                        <td>35%</td>
-                        <td>22%</td>
-                    </tr>
-                    <tr>
-                        <td>2004</td>
-                        <td>45%</td>
-                        <td>42%</td>
-                    </tr>
-                    <tr>
-                        <td>2008</td>
-                        <td>80%</td>
-                        <td>51%</td>
-                    </tr>
-                    <tr>
-                        <td>2012</td>
-                        <td>100%</td>
-                        <td>76%</td>
-                    </tr>
-                </table>
-
-            </div>
-           
+            </article>
 
 
-        </article>
+            <!--inizio tabella-->
+            <article>
+                <div>
+                    <table>
+                        <caption>Diffusione dei CSS</caption>
+                        <thead>
+                            <tr id="tr">
+                                <td>Anno</td>
+                                <td>%di utilizzo</td>
+                                <td>Supporto browsers</td>
+                            </tr>
+
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td>2000</td>
+                                <td>20%</td>
+                                <td>17%</td>
+                            </tr>
+                            <tr class="riga-grigia">
+                                <td>2002</td>
+                                <td>35%</td>
+                                <td>22%</td>
+                            </tr>
+                            <tr>
+                                <td>2004</td>
+                                <td>45%</td>
+                                <td>42%</td>
+                            </tr>
+                            <tr class="riga-grigia">
+                                <td>2008</td>
+                                <td>80%</td>
+                                <td>51%</td>
+                            </tr>
+                            <tr>
+                                <td>2012</td>
+                                <td>100%</td>
+                                <td>76%</td>
+                            </tr>
+
+                        </tbody>
+                       
+                    </table>
+                </div>
 
 
 
-        <!--parte del video -->
-        <article>
-            <div>
-                <p>Un test di validazione potrà essere fatto tramite il tool online dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/aBSZVeBRvDY?si=2mb_sUsa4_eFVkM3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-            </div>
-        </article>
 
 
-        <!--newsletter-->
-        <section>
-            <div>
-                <h3>Novità</h3>
-                <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
-                <form action="#" method="#" id="form">
-                    <input type="email" id="email" placeholder="inserisci l'email">
-                    <button>Iscriviti</button>
-                </form>
-            </div>
 
-        </section>
+            </article>
 
-        <!--articoli correlati-->
-        <section>
-            <h2>Articoli correlati</h2>
-            <!--primo blocco-->
-            <div>
-                <a href="#">Validare il codice HTML</a>
-                <p>Categoria: develop</p>
-                
-            
-            </div>
 
-            <!--correggere la sintassi-->
-            <div>
-                <a href="#">correggere la sintassi</a>
-                <p>Categoria: develop</p>
-                
-            
-            </div>
 
-            <!--Meno kb nella stessa pagina-->
-            <div>
-                <a href="#">Meno kb nella stessa pagina</a>
-                <p>Categoria: otimizzazione</p>
-                
-            
-            </div>
+            <!--parte del video -->
+            <article>
+                <div class="content">
+                    <p>Un test di validazione potrà essere fatto tramite il <a id="tool-online" href="#" target="_blank">too online</a> dedicato allo scopo. Una volta
+                        ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers
+                        come loro:</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/aBSZVeBRvDY?si=2mb_sUsa4_eFVkM3"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-        </section>
+                </div>
+            </article>
 
-    
+
+            <!--newsletter-->
+            <section>
+                <div id="newsletter">
+                    <h3>NOVITA'</h3>
+                    <p id="testo-newsletter">Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
+                    <form action="#" method="#" id="form">
+                        <input type="email" id="email" placeholder="inserisci l'email">
+                        <button>Iscriviti</button>
+                    </form>
+                </div>
+
+            </section>
+
+            <!--articoli correlati-->
+            <section>
+                <h2>Articoli correlati</h2>
+                <!--primo blocco-->
+                <div class="articoli-correlati">
+                    <a class="link-art" href="#">Validare il codice HTML</a>
+                    <p class="par-artcor">Categoria: develop</p>
+                    <p class="data"><ion-icon name="calendar"></ion-icon>Data: 18-9-2020</p>
+
+
+                </div>
+
+                <!--correggere la sintassi-->
+                <div class="articoli-correlati" >
+                    <a class="link-art" href="#">correggere la sintassi</a>
+                    <p class="par-artcor">Categoria: develop</p>
+                    <p class="data"><ion-icon name="calendar"></ion-icon>Data: 16-9-2020</p>
+
+
+                </div>
+
+                <!--Meno kb nella stessa pagina-->
+                <div class="articoli-correlati">
+                    <a class="link-art" href="#">Meno kb nella stessa pagina</a>
+                    <p class="par-artcor">Categoria: otimizzazione</p>
+                    <p class="data"><ion-icon name="calendar"></ion-icon>Data:30-9-2020</p>
+
+
+                </div>
+            </section>
+        </div>
+
     </main>
 
     <!--inizio footer-->
@@ -206,42 +222,17 @@
             <p>Blog Epicode ©2021</p>
             <p>Testata online di Mario Rossi, registrata con prot. n.213/2018 -</p>
             <address>via Luigi Einaudi 2 - Milano.</address>
-            <p>P.IVA 00112233.</p>
-            <a href="mailto:info@epicode.school">info@epicode.school</a>
+            <p id="para-foot" >P.IVA 00112233.<a id="link-footer" href="mailto:info@epicode.school">info@epicode.school</a></p>
 
         </div>
 
     </footer>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!--script icone-->
+    <script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" > </script> 
+    <script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js" > </script>
+   
 </body>
 
 </html>
